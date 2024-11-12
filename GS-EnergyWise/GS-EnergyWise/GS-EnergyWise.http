@@ -1,0 +1,6 @@
+@GS_EnergyWise_HostAddress = http://localhost:5270
+
+GET {{GS_EnergyWise_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
