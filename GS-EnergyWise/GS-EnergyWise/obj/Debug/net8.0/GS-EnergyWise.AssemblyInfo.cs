@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GS-EnergyWise")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46d8a0db5158c2e13b1b4f57047117a55fde612c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e954cbea5587ad5e598af00ec68af547665e933")]
 [assembly: System.Reflection.AssemblyProductAttribute("GS-EnergyWise")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GS-EnergyWise")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
