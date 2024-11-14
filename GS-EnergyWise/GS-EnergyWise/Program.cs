@@ -1,4 +1,8 @@
+using GS_EnergyWise.Application.Interfaces;
+using GS_EnergyWise.Application.Mappings;
+using GS_EnergyWise.Application.Services;
 using GS_EnergyWise.Infraestructure.Data.AppData;
+using GS_EnergyWise.Infraestructure.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +13,11 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
 {
     options.UseOracle(builder.Configuration.GetConnectionString("Oracle"));
 });
+
+builder.Services.AddAutoMapper(typeof(Startup));
+
+builder.Services.AddScoped<IComunidadeRepository, ComunidadeRepository>();
+builder.Services.AddScoped<IComunidadeApplicationService, ComunidadeApplicationService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
