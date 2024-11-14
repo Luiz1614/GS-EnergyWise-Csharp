@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "C3cSTgox+aE=",
+  "dgSpecHash": "2wbVI7MgraJBZLTOptfObyLI3lDGmzsaOwQRFHsSuPLbgUgqQQUEihXn5YddcZNYKoeqAxIXuNbjG+hz2eR7vw==",
   "success": true,
   "projectFilePath": "C:\\Users\\luizo\\OneDrive\\Área de Trabalho\\GitHub\\GS-EnergyWise-Csharp\\GS-EnergyWise\\GS-EnergyWise\\GS-EnergyWise.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\luizo\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\luizo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\luizo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\luizo\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
