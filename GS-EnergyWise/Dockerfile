@@ -11,4 +11,6 @@ FROM microsoft/dotnet:2.1-aspnetcore-runtime
 WORKDIR /app
 COPY --from=build-env /app/out .
 
+EXPOSE 80   
+
 ENTRYPOINT ["dotnet", "GS-EnergyWise.dll"]
