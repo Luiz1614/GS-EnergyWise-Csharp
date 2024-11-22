@@ -17,6 +17,7 @@ public class ComunidadeController : ControllerBase
     }
 
     [HttpGet]
+    
     public IActionResult GetAll()
     {
         try

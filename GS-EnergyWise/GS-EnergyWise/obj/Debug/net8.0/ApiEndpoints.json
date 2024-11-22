@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "GS_EnergyWise.Presentation.Controllers.ComunidadeController",
+    "Method": "GetAll",
+    "RelativePath": "api/Comunidade",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GS_EnergyWise.Presentation.Controllers.ComunidadeController",
+    "Method": "Add",
+    "RelativePath": "api/Comunidade",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comunidadeDTO",
+        "Type": "GS_EnergyWise.Application.DOTs.ComunidadeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GS_EnergyWise.Presentation.Controllers.ComunidadeController",
+    "Method": "GetById",
+    "RelativePath": "api/Comunidade/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GS_EnergyWise.Presentation.Controllers.ComunidadeController",
+    "Method": "Update",
+    "RelativePath": "api/Comunidade/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "comunidadeDTO",
+        "Type": "GS_EnergyWise.Application.DOTs.ComunidadeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GS_EnergyWise.Presentation.Controllers.ComunidadeController",
+    "Method": "Delete",
+    "RelativePath": "api/Comunidade/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
